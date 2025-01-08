@@ -18,7 +18,7 @@ iframe {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 150%;
 }
 
 main {
@@ -33,7 +33,7 @@ main {
   position: relative;
   overflow: hidden;
   border-radius: 1rem;
-  --position: 50%;
+  --position: 100%;
 }
 
 .image-container {
