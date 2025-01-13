@@ -48,6 +48,14 @@ main {
   height: 100%;
   object-fit: cover;
   object-position: left;
+   position: absolute;
+  inset: 0;
+  width: var(--position, 50%); /* Dynamische breedte */
+  height: 100%; /* Vaste hoogte om schalen te voorkomen */
+  object-fit: cover; /* Houd afbeelding proportioneel */
+  object-position: left; /* Optioneel: beginpositie van de afbeelding */
+  transition: width 0.3s ease; /* Maak de breedte-aanpassing vloeiend */
+}
 }
 
 .image-before {
