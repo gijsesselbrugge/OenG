@@ -6,6 +6,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.image-before {
+  position: absolute;
+  inset: 0;
+  width: 100%; /* Zorgt ervoor dat de breedte de container vult */
+  height: 100%; /* Zorgt ervoor dat de hoogte de container vult */
+  max-width: 500px; /* Stel een vaste maximale breedte in */
+  max-height: 300px; /* Stel een vaste maximale hoogte in */
+  object-fit: cover; /* Zorgt ervoor dat de afbeelding proportioneel wordt geschaald zonder vervorming */
+  object-position: left; /* Optioneel: de positie van de afbeelding aanpassen */
+}
 
 iframe {
   aspect-ratio: 16/9;
