@@ -61,7 +61,7 @@ main {
 .image-before {
   position: absolute;
   inset: 0;
-  width: var(--position);
+  width: 100%;
 }
 
 .slider {
