@@ -38,7 +38,7 @@ main {
 
 .image-container {
   max-width: 1500px;
-  max-height: 90vh;
+  max-height: 712px;
   aspect-ratio: 16/9;
   object-fit: cover;
 }
